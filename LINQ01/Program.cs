@@ -105,7 +105,6 @@ namespace LINQ01
 			//}
 
 			#endregion
-
 			#region 6
 			// var Result09 = ListGenerator.ProductList.OrderByDescending(p => p.Category).ThenByDescending(p => p.UnitPrice);
 			//Result09=from p in ListGenerator.ProductList
@@ -117,7 +116,6 @@ namespace LINQ01
 			// }
 
 			#endregion
-
 			#region 7
 			string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
 
@@ -130,7 +128,6 @@ namespace LINQ01
 				Console.WriteLine(item);
 			}
 			#endregion
-
 			#region 8
 			//string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
