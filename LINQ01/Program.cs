@@ -93,7 +93,54 @@ namespace LINQ01
 			//}
 			#endregion
 			#region 5
+			//string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
 
+
+			//var Result = words
+			//    .OrderBy(word => word.Length)
+			//    .ThenBy(word => word, StringComparer.OrdinalIgnoreCase);
+			//foreach (var word in Result)
+			//{
+			//    Console.WriteLine(word);
+			//}
+
+			#endregion
+
+			#region 6
+			// var Result09 = ListGenerator.ProductList.OrderByDescending(p => p.Category).ThenByDescending(p => p.UnitPrice);
+			//Result09=from p in ListGenerator.ProductList
+			//         orderby p.Category,p.UnitPrice descending
+			//         select p;
+			// foreach (var item in Result09)
+			// {
+			//     Console.WriteLine(item);
+			// }
+
+			#endregion
+
+			#region 7
+			string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+			var Result = Arr
+				.OrderBy(word => word.Length)
+				.ThenByDescending(word => word, StringComparer.OrdinalIgnoreCase);
+
+			foreach (var item in Result)
+			{
+				Console.WriteLine(item);
+			}
+			#endregion
+
+			#region 8
+			//string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+			//var Result11 = Arr
+			//    .Where(word => word.Length > 1 && word[1] == 'i')
+			//    .Reverse();
+			//foreach (var item in Result11)
+			//{
+			//    Console.WriteLine(item);
+			//}
 			#endregion
 			#endregion
 		}
