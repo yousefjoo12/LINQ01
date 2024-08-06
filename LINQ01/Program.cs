@@ -52,7 +52,6 @@ namespace LINQ01
 
 			#endregion
 			#endregion
-
 			#region LINQ - Ordering Operators
 			#region 1
 			//var Ruselt = from N in ProductsList
